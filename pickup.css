@@ -1,0 +1,643 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+.logo{
+    margin-top: -50px;
+    margin-bottom : -30px;
+    width: 90px;
+    height: 100px;
+}
+h1 {
+    font-size: 25px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+
+}
+
+.section-p1 {
+    padding: 40px 80px;
+
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+
+}
+
+/*  Header Start */
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px ;
+    background: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{                     /*for removing boollet point in front of siblings */
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+
+}
+
+#navbar li a{                     /*for removing underline from siblings */
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3sec ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #088178;
+    
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+/*** 
+
+====================================================================
+	Login Section
+====================================================================
+
+***/
+
+.login-section{
+	position:relative;
+	padding:120px 0px 120px;
+}
+
+.login-section .login-box{
+	position:relative;
+	max-width:600px;
+	margin:0 auto;
+	padding:45px 40px 35px;
+	background-color:#ffffff;
+	box-shadow:0px 0px 30px rgba(0,0,0,0.05);
+}
+
+.login-section .login-box .title-box{
+	position:relative;
+	text-align:center;
+	margin-bottom:32px;
+}
+
+.login-section .login-box .title-box h2{
+	position:relative;
+	color:#000000;
+	font-weight:700;
+	line-height:1.3em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.login-section .login-box .title-box .text{
+	position:relative;
+	color:#03382e;
+	font-size:16px;
+	font-weight:400;
+	line-height:1.8em;
+	margin-top:12px;
+}
+
+/* Styled Form */
+
+.login-form-box{
+	position:relative;
+}
+
+.login-form-box .form-group{
+	position:relative;
+	margin-bottom:25px;
+}
+
+.login-form-box .form-group .eye-icon{
+	position:absolute;
+	right:30px;
+	top:54px;
+	color:#222222;
+	font-size:18px;
+	z-index:1;
+	opacity:0.5;
+}
+
+.login-form-box .form-group label{
+	position:relative;
+	color:#626262;
+	font-size:16px;
+	font-weight:400;
+	margin-bottom:15px;
+}
+
+.login-form-box .form-group input{
+	position:relative;
+	height:55px;
+	padding:6px 25px;
+	width:100%;
+	color:#222222;
+	font-size:16px;
+	border-radius:0px;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	box-shadow:0px 0px 18px rgba(0,0,0,0.10);
+}
+
+.login-form-box .form-group input:focus{
+	border-color:#2a76dc;
+}
+
+.login-form-box .form-group textarea{
+	position:relative;
+	height:150px;
+	width:100%;
+	resize:none;
+	padding:15px 15px;
+	border-radius:50px;
+	border:1px solid #f2f2f2;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+}
+
+.login-form-box .form-group .users{
+	position:relative;
+	color:#626262;
+	font-size:16px;
+	text-align:center;
+}
+
+.login-form-box .form-group .users a{
+	position:relative;
+	color:#2a76dc;
+	font-weight:600;
+	text-decoration:underline;
+}
+
+/* CheckBox */
+
+.login-form-box .form-group .check-box{
+	position:relative;
+	margin-bottom:3px;
+	margin-top:7px;
+}
+
+.login-form-box .form-group .check-box label{
+	color:#2b2b2b;
+}
+
+.login-form-box .form-group .check-box label{
+	position: relative;
+	display: block;
+	width: 100%;
+	line-height: 22px;
+	padding: 4px 10px 0px;
+	padding-left: 25px;
+	background: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+	cursor: pointer;
+	margin-bottom: 0;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+	font-family: 'Poppins', sans-serif;
+}
+
+.login-form-box .form-group .check-box input[type="checkbox"]:checked + label{
+	border-color: #2a76dc;
+}
+
+.login-form-box .form-group .form-group .check-box label {
+    padding-left: 30px;
+    padding-top: 1px;
+    cursor: pointer;
+}
+
+.login-form-box .form-group .check-box label:before{
+	position: absolute;
+	left: 0;
+	top: 6px;
+	height:15px;
+	width: 15px;
+	background: #ffffff;
+	content: "";
+	border-radius: 0px;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+	border:1px solid #2a76dc;
+}
+
+.login-form-box .form-group .check-box label:after {
+	position: absolute;
+	left: 0px;
+	top: 0;
+	height: 15px;
+	line-height: 15px;
+	max-width: 0;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 800;
+	overflow: hidden;
+	background: transparent;
+	text-align: center;
+	font-family: 'FontAwesome';
+	-webkit-transition: max-width 500ms ease;
+	-moz-transition: max-width 500ms ease;
+	-ms-transition: max-width 500ms ease;
+	-o-transition: max-width 500ms ease;
+	transition: max-width 500ms ease;
+}
+
+.login-form-box .form-group .check-box input[type="checkbox"] {
+	display: none;
+}
+
+.login-form-box .form-group .check-box input[type="checkbox"]:checked + label:before{
+	border: 5px solid #2a76dc;
+    background: #ffffff;
+}
+
+.login-form-box .form-group .check-box input[type="checkbox"]:checked + label:after {
+	max-width: 20px;
+	opacity: 1;	
+}
+
+/* Radio Box */
+
+.login-form-box .form-group .radio-box{
+	position:relative;
+	margin-bottom:3px;
+	margin-top:7px;
+}
+
+.login-form-box .form-group .radio-box label{
+	font-family: 'Roboto Condensed' ;
+	color:#2b2b2b;
+}
+
+.login-form-box .form-group .radio-box label{
+	position: relative;
+	display: block;
+	height: 30px;
+	width: 100%;
+	line-height: 9px;
+	padding: 4px 10px 0px;
+	padding-left: 25px;
+	background: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+	cursor: pointer;
+	margin-bottom: 0;
+	font-family: 'Poppins', sans-serif;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.login-form-box .form-group .radio-box input[type="radio"]:checked + label{
+	border-color: #25a9e0;
+}
+
+.login-form-box .form-group .form-group .radio-box label {
+    padding-left: 30px;
+    padding-top: 1px;
+    cursor: pointer;
+}
+
+.login-form-box .form-group .radio-box label:before{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height:15px;
+	width: 15px;
+	background: #ffffff;
+	content: "";
+	border-radius: 0px;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+	border:1px solid #2a76dc;
+}
+
+.login-form-box .form-group .radio-box label:after {
+	position: absolute;
+	left: 0px;
+	top: 0;
+	height: 15px;
+	line-height: 15px;
+	max-width: 0;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 800;
+	overflow: hidden;
+	background: transparent;
+	text-align: center;
+	font-family: 'FontAwesome';
+	-webkit-transition: max-width 500ms ease;
+	-moz-transition: max-width 500ms ease;
+	-ms-transition: max-width 500ms ease;
+	-o-transition: max-width 500ms ease;
+	transition: max-width 500ms ease;
+}
+
+.login-form-box .form-group .radio-box input[type="radio"] {
+	display: none;
+}
+
+.login-form-box .form-group .radio-box input[type="radio"]:checked + label:before{
+	border: 5px solid #2a76dc;
+    background: #ffffff;
+}
+
+.login-form-box .form-group .radio-box input[type="radio"]:checked + label:after {
+	max-width: 20px;
+	opacity: 1;	
+}
+
+.login-form-box .forgot{
+	position:relative;
+	font-weight:500;
+	color:#626262;
+	font-size:16px;
+	margin-top:10px;
+	display:inline-block;
+	text-decoration:underline;
+	font-family: 'Poppins', sans-serif;
+}
+
+.login-form-box .theme-btn{
+	background:none;
+}
+
+/*** 
+
+====================================================================
+	Register Section
+====================================================================
+
+***/
+
+.register-section{
+	position:relative;
+	padding:110px 0px 110px;
+}
+
+.register-section .register-box{
+	position:relative;
+	max-width:970px;
+	margin:0 auto;
+	padding:45px 40px 35px;
+	background-color:#ffffff;
+	box-shadow:0px 0px 20px rgba(0,0,0,0.06);
+}
+
+.register-section .register-box .title-box{
+	position:relative;
+	text-align:center;
+	margin-bottom:32px;
+}
+
+.register-section .register-box .title-box h2{
+	position:relative;
+	color:#000000;
+	font-weight:700;
+	line-height:1.3em;
+}
+
+.register-section .register-box .title-box .text{
+	position:relative;
+	color:#03382e;
+	font-size:16px;
+	font-weight:400;
+	line-height:1.8em;
+	margin-top:12px;
+}
+
+/* footer */
+
+.auto-container{
+	position:static;
+	max-width:1200px;
+	padding:0px 10px;
+	margin:0 auto;
+}
+
+.footer-style-two{
+	position:relative;
+	overflow:hidden;
+	padding-top:100px;
+	background-color:black;
+}
+
+.footer-style-two.style-two{
+	padding-top:200px;
+}
+
+.footer-style-two .pattern-layer{
+	position:absolute;
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+}
+
+.footer-style-two .big-circle-layer{
+	position:absolute;
+	right:0px;
+	bottom:-20px;
+	width:984px;
+	height:984px;
+	background-repeat:no-repeat;
+}
+
+.footer-style-two .widgets-section{
+	position:relative;
+	padding:0px 0px 0px;
+}
+
+.footer-style-two .footer-column{
+	position:relative;
+	margin-bottom:40px;
+}
+
+.footer-style-two .footer-widget{
+	position:relative;
+	z-index:2;
+	margin-bottom:30px;
+}
+
+.footer-style-two .footer-widget h5{
+	position:relative;
+	font-weight:600;
+	color:#ffffff;
+	margin-bottom:20px;
+	letter-spacing:1px;
+	text-transform:uppercase;
+}
+
+.footer-style-two .logo-widget{
+	position:relative;
+	z-index:3;
+}
+
+.footer-style-two .logo-widget .logo{
+	position:relative;
+	margin-bottom:18px;
+}
+
+.footer-style-two .logo-widget .text{
+	position:relative;
+	line-height:1.9em;
+	margin-bottom:35px;
+	color:#b3bbc6;
+	font-size:15px;
+}
+
+.footer-style-two .info-widget .info-list{
+	position:relative;
+}
+
+.footer-style-two .info-widget .info-list li{
+	position:relative;
+	margin-bottom:20px;
+	padding-left:38px;
+	color:#ffffff;
+	font-weight:600;
+	line-height:2em;
+}
+
+.footer-style-two .info-widget .info-list li i{
+	display:block;
+	color:#b3bbc6;
+	font-size:13px;
+	font-style:normal;
+	margin-bottom:0px;
+	font-weight:400;
+}
+
+.footer-style-two .info-widget .info-list li .icon{
+	position:absolute;
+	left:0px;
+	top:7px;
+	color:#8abbfe;
+	font-size:20px;
+	line-height:1em;
+	font-weight:400;
+}
+
+.footer-style-two .info-widget .info-list li a{
+	position:relative;
+	color:#ffffff;
+	font-size:16px;
+	font-weight:500;
+}
+
+.footer-style-two .list-link li{
+	position:relative;
+	margin-bottom:12px;
+}
+
+.footer-style-two .list-link li a{
+	position:relative;
+	font-size:15px;
+	font-weight:400;
+	color:rgba(255,255,255,0.60);
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	transition:all 300ms ease;
+}
+
+.footer-style-two .list-link li a:hover{
+	color:#ffffff;
+}
+
+.footer-style-two .subscribe-widget .social-box{
+	position:relative;
+}
+
+.footer-style-two .subscribe-widget .social-box a{
+	position:relative;
+	font-size:16px;
+	margin-right:18px;
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	transition:all 300ms ease;	
+	color:rgba(255,255,255,0.60);
+}
+
+.footer-style-two .subscribe-widget .social-box a:hover{
+	color:#ffffff;
+}
+

@@ -1,0 +1,562 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrap Hub</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+    <link href=" https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="pickup.css">
+</head>
+<body>
+    
+<div class="page-wrapper">	  
+    <section id="header">
+        <a href="#"><img src="img/LOGO.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="price.html">Price List</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+                <li><a href="login_form.php" class="pickup" style="color: green;"><b>Login</b></a></li>
+                <li><a href="user_page.php" class="user_page" style="color: red;"><b>Logout</b></a></li>
+
+            </ul>
+        </div>
+    </section>
+
+    
+    
+      
+    <section id="hero">
+        <h4>Scrap Hub</h4>
+        <h2>Solapur's 1st Online Kabadiwala</h2>
+        <h1>Now Sell your Scrap in 3 Easy Steps</h1>
+        <p>Our team will arrive at your doorstep </p>
+        <button><a href="pickup.html" class="schedule" style="color: #56ad38;" > SCHEDULE A PICKUP</a></button>
+    </section>
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="img/features/f1.png" alt="">
+            <h6>Free Pickup</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f2.png" alt="">
+            <h6>Online Order</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f3.png" alt="">
+            <h6>Earn Money</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f4.png" alt="">
+            <h6>Save World</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f5.png" alt="">
+            <h6>Happy Sell</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f6.png" alt="">
+            <h6>F24/7 Support</h6>
+        </div>
+    </section>
+
+    <section class="movers-about-section" style="background-color: #f8f9fb;">
+		<div class="auto-container">
+			<div class="row clearfix">
+				
+				<!-- Content Column -->
+				<div class="content-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<div class="sec-title-six">
+							<div class="title" style="color:#56ad38 !important;">ABOUT US</div>
+							<h2>Welcome To Scrap Hub</h2>
+						</div>
+						<div class="text" style="text-align:justify;">Scrap Hub is Solapur's First online Kabadiwala. You just request for scrap pickup by call/WhatsApp/Website and our Pickup Executive will come at your doorstep without any extra charge and give best price of your scrap. </div>
+						<div class="text" style="text-align:justify;">
+							As scrap dealers we buy recyclable scrap materials such as old washing machine, bike scrap, electronic scrap, old newspaper, schoolbooks, Iron, aluminium, Copper, Brass, Steel, carton scrap, Plastic, computer, e-waste, old batteries etc. We give free pickup in all over Solapur. We invite you to join our hands and try to help us in recycling management.
+						</div>
+						<div class="btn-box clearfix">
+							<!-- <a href="pickup.html" class="theme-btn btn-style-eight" style="background-color: #56ad38 !important;"><span class="txt">Request For Pickup <i class="flaticon-right-arrow-3"></i></span></a> -->
+							<a class="btn btn-success" href="pickup.html" role="button">Request For Pickup</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Image Column -->
+				<div class="image-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column">
+					
+							<!--<img src="https://scrapbazar.in/public/frontend/images/FrontPage2.svg" alt="About Scrap Hub" />-->
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/-nqucV-i2P4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        <!-- End Mover About <section></section> -->
+       
+    <section class="donation-featured-section">
+        <div class="auto-container">
+            <!-- Sec Title Six -->
+            <div class="sec-title-six centered">
+                <h2>Why Choose ScrapHub?</h2>
+            </div>
+            <div class="row clearfix">
+                
+                <!-- Donate Feature Block Two -->
+                <a href="save_envir.html"><div class="donate-feature-block-two col-lg-3 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft animated animated" data-wow-delay="0ms" data-wow-duration="1500ms" >
+                        <div class="left-border"></div>
+                            <div class="top-border"></div>
+                            <div class="right-border"></div>
+                            <div class="bottom-border"></div>
+                            <img src="img/save.jpg" alt="Save Environment">
+                            <h5 ><a href="save_envir.html">Save Environment</a></h5>
+                            <div class="text">Recycling conserves resources, saves energy, helps protect the environment for us as we are working towards save Environment</div>
+                            <a href="save_envir.html" class="learn-more" >Learn more <span class="icon flaticon-right-arrow-2" ></span></a>
+                        </div>
+                     </div>
+                </a>
+                
+                <!-- Donate Feature Block Two -->
+                <div class="donate-feature-block-two col-lg-3 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInLeft animated animated" data-wow-delay="150ms" data-wow-duration="1500ms" >
+                        <div class="left-border"></div>
+                        <div class="top-border"></div>
+                        <div class="right-border"></div>
+                        <div class="bottom-border"></div>
+                        <img src="img/Accurate.jpg" alt="Accurate Weight">
+                        <h5 ><a href="#" >Accurate Weight</a></h5>
+                        <div  class="text">We use certified calibrated weighing scales that gives complete assurance on accurate weight.</div>
+                        <a href="#" class="learn-more" >Learn more <span class="icon flaticon-right-arrow-2" ></span></a>
+                    </div>
+                </div>
+                
+                <!-- Donate Feature Block Two -->
+                <div class="donate-feature-block-two col-lg-3 col-md-6 col-sm-12">
+                    <div class="inner-box wow fadeInRight animated animated" data-wow-delay="0ms" data-wow-duration="1500ms" >
+                        <div class="left-border"></div>
+                        <div class="top-border"></div>
+                        <div class="right-border"></div>
+                        <div class="bottom-border"></div>
+                        <img src="img/FreePickup.jpg" alt="Free Pickup">
+                        <h5 ><a >Free Pickup</a></h5>
+                        <div class="text">Executive will reach at your doorstep on date &amp; time designated by you in certain areas of our city</div>
+                        <a href="#" class="learn-more" >Learn more <span class="icon flaticon-right-arrow-2" ></span></a>
+                    </div>
+                </div>
+                
+                <!-- Donate Feature Block Two -->
+                <div class="donate-feature-block-two col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft animated animated" data-wow-delay="0ms" data-wow-duration="1500ms" >
+						<div class="left-border"></div>
+						<div class="top-border"></div>
+						<div class="right-border"></div>
+						<div class="bottom-border"></div>
+						<img src="img/Competitive.jpg" alt="Competitive Price">
+						<h5 ><a href="#" >Competitive Price</a></h5>
+						<div class="text">We pay the right value to customers considering minimal operational cost towards doorstep service.</div>
+						<a href="#" class="learn-more" >Learn more <span class="icon flaticon-right-arrow-2" ></span></a>
+					</div>
+				</div>
+                
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="movers-works-section" >
+		<div class="auto-container">
+			
+			<!-- Sec Title Six -->
+			<div class="sec-title-six centered">
+				<h2>SELL YOUR SCRAP </h2>
+				<div class="text">Sell your scrap in 3 easy steps</div>
+			</div>
+			<div class="row clearfix">
+				
+				<!-- Mover Step Block -->
+				<div class="mover-step-block col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft animated" data-wow-delay="0ms" data-wow-duration="1500ms" >
+						<div class="icon-box">
+							<div class="icon">
+								<img src="img/step1.png" alt="Book our Service">
+							</div>
+						</div>
+						<h4>Book our Service</h4>
+					</div>
+				</div>
+				
+				<!-- Mover Step Block -->
+				<div class="mover-step-block col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft animated" data-wow-delay="150ms" data-wow-duration="1500ms" >
+						<div class="icon-box">
+							<div class="icon">
+								<img src="img/step2.png" alt="Pickup On the way">
+							</div>
+						</div>
+						<h4>Pickup On the way</h4>
+					</div>
+				</div>
+				
+			
+				
+				<!-- Mover Step Block -->
+				<div class="mover-step-block col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft animated" data-wow-delay="450ms" data-wow-duration="1500ms" >
+						<div class="icon-box">
+							<div class="icon">
+								<img src="img/step3.png" alt="Pickup boys will arrive at your home">
+							</div>
+						</div>
+						<h4>Pickup boys will arrive at your home</h4>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+    <!-- <section class="testimonial-section-three">
+        <div class="auto-container">
+            
+            <div class="sec-title-two centered">
+                
+                
+                <h2> Scrap Hub <img src="img/google.jpg"  alt="reviews"> Reviews </h2>
+            </div>
+            <div class="inner-container">
+                <div class="testimonial-carousel owl-carousel owl-theme owl-loaded owl-drag">
+                                            Testimonial Block Three
+                    
+                                            Testimonial Block Three
+                    
+                                            Testimonial Block Three
+                    
+                                            Testimonial Block Three
+                    
+                                            Testimonial Block Three
+                    
+                                            Testimonial Block Three
+                    
+                                            Testimonial Block Three
+                    
+                                            Testimonial Block Three
+                    
+                     
+                    
+                <div class="owl-stage-outer"><div class="owl-stage" ><div class="testimonial-block-three">
+                        <div class="inner-box">
+                            
+                            <div class="text">First of all I really appreciate the fact that all this scrap is used for recycling and helps save the environment. I also loved the service, as all the prices are already set, the staff is really quick in their work and...</div>
+                            <div class="author-name">- @rani jain</div>
+                        </div>
+                    </div></div><div class="owl-item cloned" ><div class="testimonial-block-three">
+                        <div class="inner-box">
+                            
+                            <div class="text">I feel very happy to be sharing this review. I had requested for my home scrap to get pickup by the team at Scrapbazar. They came, sorted everything, noted good rates and took everything that I wanted to recycle in a ver...</div>
+                            <div class="author-name">- @Aaudarya Vora</div>
+                        </div>
+                    </div></div><div class="owl-item cloned" ><div class="testimonial-block-three">
+                        <div class="inner-box">
+                            
+                            <div class="text">Service is good and yes ofcourse rates are also very good keep it up....i will surely book another pickup soon
+
+Thnks for your service 🙂</div>
+                            <div class="author-name">- @Sunil .k</div>
+                        </div>
+                    </div></div><div class="owl-item cloned" ><div class="testimonial-block-three">
+                        <div class="inner-box">
+                            
+                            <div class="text">Scrap Hub is leading waste management company in Solapur - online kabadiwala.
+The compnay role is Pasti wala, Bhanagar wala, Scrap tader, Scrap Merchant, Scrap Dealers, kabadiwala, Document Shredding, Scrap buyers, A...</div>
+                            <div class="author-name">- @Kamlesh Lodha</div>
+                        </div>
+                    </div></div><div class="owl-item" ><div class="testimonial-block-three">
+                        <div class="inner-box">
+                            
+                            <div class="text">I have never experienced such a seamless process for scrap pickup until I started using ScrapBazar and I have to say I am thoroughly impressed. The pickup process is efficient, the prices are fair, and the convenience of...</div>
+                            <div class="author-name">- @Bhuro Tank</div>
+                        </div>
+                    </div></div><div class="owl-item active" ><div class="testimonial-block-three">
+                        <div class="inner-box">
+                            
+                            <div class="text">I have been using ScrapBazar for a few months now and I am thoroughly impressed. The pickup process is efficient, the prices are fair and the convenience of having it picked up from my doorstep is unbeatable. I highly re...</div>
+                            <div class="author-name">- @Zeel Patel</div>
+                        </div>
+                    </div></div><div class="owl-item active center" ><div class="testimonial-block-three">
+                        <div class="inner-box">
+                            
+                            <div class="text">Tired of long lines and wait times at the recycling center? ScrapBazar has solved all my problems. The app is user-friendly, the pickup is fast, and the scrap price offered is fantastic. I highly recommend it to anyone l...</div>
+                            <div class="author-name">- @Jonty Gaming yt</div>
+                        </div>
+                    </div></div><div class="owl-item active" ><div class="testimonial-block-three">
+                        <div class="inner-box">
+                            
+                            <div class="text">Seamless work! Excellent. Polite, well mannered staff. I am a customer for life! Please start taking glass scrap too!</div>
+                            <div class="author-name">- @Mallika Iyer</div>
+                        </div>
+                    </div></div><div class="owl-item" ><div class="testimonial-block-three">
+                        <div class="inner-box">
+                            
+                            <div class="text">First of all I really appreciate the fact that all this scrap is used for recycling and helps save the environment. I also loved the service, as all the prices are already set, the staff is really quick in their work and...</div>
+                            <div class="author-name">- @rani jain</div>
+                        </div>
+                    </div></div><div class="owl-item" ><div class="testimonial-block-three">
+                        <div class="inner-box">
+                            
+                            <div class="text">I feel very happy to be sharing this review. I had requested for my home scrap to get pickup by the team at Scrapbazar. They came, sorted everything, noted good rates and took everything that I wanted to recycle in a ver...</div>
+                            <div class="author-name">- @Aaudarya Vora</div>
+                        </div>
+                    </div></div><div class="owl-item" ><div class="testimonial-block-three">
+                        <div class="inner-box">
+                            
+                            <div class="text">Service is good and yes ofcourse rates are also very good keep it up....i will surely book another pickup soon
+
+Thnks for your service 🙂</div>
+                            <div class="author-name">- @Sunil .k</div>
+                        </div>
+                    </div></div><div class="owl-item" ><div class="testimonial-block-three">
+                        <div class="inner-box">
+                            
+                            <div class="text">Scrap Hub is leading waste management company in Solapur - online kabadiwala.
+The compnay role is Pasti wala, Bhanagar wala, Scrap tader, Scrap Merchant, Scrap Dealers, kabadiwala, Document Shredding, Scrap buyers, A...</div>
+                            <div class="author-name">- @Kamlesh Lodha</div>
+                        </div>
+                    </div></div><div class="owl-item cloned" ><div class="testimonial-block-three">
+                        <div class="inner-box">
+                            
+                            <div class="text">I have never experienced such a seamless process for scrap pickup until I started using ScrapBazar and I have to say I am thoroughly impressed. The pickup process is efficient, the prices are fair, and the convenience of...</div>
+                            <div class="author-name">- @Bhuro Tank</div>
+                        </div>
+                    </div></div><div class="owl-item cloned" ><div class="testimonial-block-three">
+                        <div class="inner-box">
+                            
+                            <div class="text">I have been using ScrapBazar for a few months now and I am thoroughly impressed. The pickup process is efficient, the prices are fair and the convenience of having it picked up from my doorstep is unbeatable. I highly re...</div>
+                            <div class="author-name">- @Zeel Patel</div>
+                        </div>
+                    </div></div><div class="owl-item cloned" ><div class="testimonial-block-three">
+                        <div class="inner-box">
+                            
+                            <div class="text">Tired of long lines and wait times at the recycling center? ScrapBazar has solved all my problems. The app is user-friendly, the pickup is fast, and the scrap price offered is fantastic. I highly recommend it to anyone l...</div>
+                            <div class="author-name">- @Jonty Gaming yt</div>
+                        </div>
+                    </div></div><div class="owl-item cloned" ><div class="testimonial-block-three">
+                        <div class="inner-box">
+                            
+                            <div class="text">Seamless work! Excellent. Polite, well mannered staff. I am a customer for life! Please start taking glass scrap too!</div>
+                            <div class="author-name">- @Mallika Iyer</div>
+                        </div>
+                    </div></div></div></div><div class="owl-nav"><div class="owl-prev"><span class="fa fa-angle-left"></span></div><div class="owl-next"><span class="fa fa-angle-right"></span></div></div><div class="owl-dots"><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div></div></div>
+            </div>
+        </div>
+    </section> -->
+    
+
+
+    <!-- <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer Collection New Morden Design</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/products/f1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f2.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f3.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f4.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f5.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f6.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f7.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f8.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+    </section> -->
+
+    
+
+    
+
+    <footer class="footer-style-two style-two">
+        <div class="pattern-layer" ></div>
+        <!-- <div class="big-circle-layer" style="background-image: url(https://scrapbazar.in/public/frontend/images/background/big-circle.png)"></div> -->
+        <div class="auto-container">
+            <div class="widgets-section">
+                <div class="row clearfix" >
+                    
+                    <!-- Footer Column -->
+                    <div class="footer-column col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-widget info-widget">
+                            <h5>Have any Question?</h5>
+                            <ul class="info-list">
+                                <li>
+                                    <span class="icon flaticon-phone-call"></span>
+                                    <i>Phone</i>
+                                    <a href="tel:+919665101375"> 
+                                            +91 966 510 1375
+                                        </a>
+                                </li>
+                                <li>
+                                    <span class="icon flaticon-pin"></span>
+                                    <i>Address</i>
+                                    91, Sat Rasta, Solapur North, Solapur – 413001 , Maharastra
+                                </li>
+                                <li>
+                                    <span class="icon flaticon-email-1"></span>
+                                    <i>Email</i>
+                                    <a href="mailto:scraphub@gmail.com">scraphub.in</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Footer Column -->
+                    <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+                        <div class="footer-widget links-widget">
+                            <h5>Other Links</h5>
+                            <div class="row clearfix">
+                                
+                                <div class="column col-lg-6 col-md-6 col-sm-12">
+                                    <ul class="list-link">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="price.html">Price List</a></li>
+                                        <li><a href="pickup.html">Request For Pickup</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <div class="column col-lg-6 col-md-6 col-sm-12">
+                                    <ul class="list-link">
+                                        
+                                        <li><a href="#">Help</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                    </ul>
+                                </div>
+                                
+                                
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <!--Footer Column-->
+                    <div class="footer-column col-lg-4 col-md-6 col-sm-12">
+                        <div class="footer-widget logo-widget">
+                            <div class="logo">
+                                <a href="#"><img src="./img/LOGO.png" class="logo" alt="Waste Wise Web" ></a>
+                            </div>
+                            <div class="text">Scrap Hub local scrap buyer in Solapur. We collect all kind of Pasti &amp; metals scrap (Bhangar) like Old News paper, magazine, schoolbooks, waste Iron scrap, aluminum and etc. from both commercial and residential public with market price.</div>
+                            <!-- Email Form -->
+                            <div class="email-form">
+                                <form method="post" action="#">
+                                    <div class="form-group">
+                                        <input type="email" name="email" value="" placeholder="Email address" required="">
+                                        <button type="submit" class="theme-btn submit-btn" ><span class="txt flaticon-email-4"></span></button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="social-box">
+                                <a href="#" class="x fa fa-facebook"></a>
+                                        <a href="#" class="x fa fa-instagram"></a>
+                                        <a href="#" class="x fa fa-twitter"></a>
+                                        <a href="#" class="x fa fa-google"></a>
+                                        <a href="#" class="x fa fa-pinterest-p"></a>
+                                    </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <!-- Footer Bottom -->
+                <div class="footer-bottom">
+                    <div class="copyright">© Scrap Hub is Proudly Designed and Created by <a href="#" target="_blank" class="text-decoration-line-bottom text-black" style="color: #56ad38;">NRNS Developer </a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+    
+
+    <script src="scipt.js"></script>
+</body>
+</html>
